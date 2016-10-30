@@ -86,6 +86,7 @@ function remove (host) {
     return error(err)
   }
   lines.forEach(function (item) {
+    item[1] = item[1].split(' ')
     if (item[1].indexOf(host) > -1) {
       try {
         hostile.remove(item[0], host)
