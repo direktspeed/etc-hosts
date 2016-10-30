@@ -1,5 +1,18 @@
 #!/usr/bin/env node
 
+/*
+New flow is readlines into array make array entry1 array
+if array length bigger then 1 item remove item
+if array length = 1 remove line
+if add exists in other line add extra line for it
+create flag for set cmd append -a -n new
+also add Mark disabled enabled.
+lets use commander
+
+
+
+*/
+
 var chalk = require('chalk')
 var hostile = require('../')
 var minimist = require('minimist')
