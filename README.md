@@ -1,5 +1,7 @@
 # hostile [![travis](https://img.shields.io/travis/feross/hostile/master.svg)](https://travis-ci.org/feross/hostile) [![npm](https://img.shields.io/npm/v/hostile.svg)](https://npmjs.org/package/hostile) [![gittip](https://img.shields.io/gittip/feross.svg)](https://www.gittip.com/feross/)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/direktspeed/etc-hosts.svg)](https://greenkeeper.io/)
+
 #### Simple, programmatic `/etc/hosts` manipulation (in node.js)
 
 ![hostile](https://raw.github.com/feross/hostile/master/img.png)
